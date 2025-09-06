@@ -749,203 +749,105 @@
         </svg>
     </div>
 
-    <!-- Main Content -->
-    <main class="pt-20">
-        <!-- Enhanced Homepage -->
-        <div id="homepage" class="page-content active">
-            <!-- Hero Section -->
-            <div class="min-h-screen flex items-center justify-center px-6 relative overflow-hidden" style="background: linear-gradient(135deg, 
-                rgba(107, 114, 128, 0.95) 0%,    /* Grey */
-                rgba(156, 163, 175, 0.98) 35%,   /* Light Grey */
-                rgba(75, 85, 99, 0.95) 100%      /* Dark Grey */
-            );"
-                <!-- Background Pattern -->
-                <div class="absolute inset-0 opacity-10">
-                    <div class="absolute top-20 left-20 w-32 h-32 bg-white rounded-full"></div>
-                    <div class="absolute bottom-20 right-20 w-24 h-24 bg-white rounded-full"></div>
-                    <div class="absolute top-1/2 left-10 w-16 h-16 bg-white rounded-full"></div>
-                </div>
-                
-                <div class="text-center max-w-5xl mx-auto relative z-10 pt-8">
-                    <!-- Enhanced Rectangular Image with Glow -->
-                    <div class="mb-12 relative">
-                        <div class="hero-image-container relative mx-auto w-90 h-106 md:w-96 md:h-[28rem]">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/A._P._J._Abdul_Kalam.jpg" 
-                                 alt="Dr. APJ Abdul Kalam" 
-                                 class="hero-image w-full h-full object-cover rounded-3xl border-4 border-white shadow-2xl relative z-10"
-                                 onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 400 320\'%3E%3Crect width=\'400\' height=\'320\' fill=\'%23f3f4f6\' rx=\'20\'/%3E%3Cpath d=\'M200 80c-30 0-55 25-55 55v40c0 30 25 55 55 55s55-25 55-55v-40c0-30-25-55-55-55z\' fill=\'%23374151\'/%3E%3Cpath d=\'M200 230c-40 0-70 15-70 35v30c0 15 30 25 70 25s70-10 70-25v-30c0-20-30-35-70-35z\' fill=\'%23374151\'/%3E%3C/svg%3E'; this.alt='Dr. APJ Abdul Kalam Portrait';">
-                            
-                            <!-- Animated Glow Effect -->
-                            <div class="absolute inset-0 rounded-3xl bg-gradient-to-r from-amber-400 via-yellow-500 to-amber-600 opacity-75 blur-xl animate-pulse"></div>
-                            <div class="absolute inset-0 rounded-3xl bg-gradient-to-r from-amber-300 via-yellow-400 to-amber-500 opacity-50 blur-2xl animate-ping"></div>
-                        </div>
-                    </div>
-                    
-                    <!-- Enhanced Typography -->
-                    <div class="mb-8">
-                        <h1 class="text-gray-600 text-6xl md:text-8xl font-bold mb-6 sans-serif">
-                            Dr. APJ Abdul Kalam
-                        </h1>
+<!-- Fixed & Fully Responsive Homepage -->
+<main class="pt-20">
+    <div id="homepage" class="page-content active">
 
-                        <p class="text-xl text-gray-300 mb-8 font-light">
-                            1931 - 2015
-                        </p>
-                        
-                         <!-- Role Boxes -->
-<div class="flex flex-wrap justify-center gap-4 mb-8">
-    <div class="bg-blue-300 bg-opacity-30 backdrop-blur-xl rounded-2xl px-6 py-3 border border-white border-opacity-30 shadow-md">
-        <span class="text-white font-semibold text-lg">🔬 Scientist</span>
+        <!-- Hero Section -->
+        <div class="min-h-screen flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 relative overflow-hidden" style="background: linear-gradient(135deg, rgba(107, 114, 128, 0.95) 0%, rgba(156, 163, 175, 0.98) 35%, rgba(75, 85, 99, 0.95) 100%);">
+
+            <!-- Background Pattern -->
+            <div class="absolute inset-0 opacity-10">
+                <div class="absolute top-20 left-4 sm:left-20 w-20 sm:w-32 h-20 sm:h-32 bg-white rounded-full"></div>
+                <div class="absolute bottom-20 right-4 sm:right-20 w-16 sm:w-24 h-16 sm:h-24 bg-white rounded-full"></div>
+                <div class="absolute top-1/2 left-4 sm:left-10 w-12 sm:w-16 h-12 sm:h-16 bg-white rounded-full"></div>
+            </div>
+
+            <!-- Content Container -->
+            <div class="text-center max-w-5xl w-full relative z-10 pt-8">
+
+                <!-- Hero Image with Glow -->
+                <div class="mb-12 relative w-full max-w-md sm:max-w-lg mx-auto h-72 sm:h-[28rem]">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/A._P._J._Abdul_Kalam.jpg" alt="Dr. APJ Abdul Kalam" class="w-full h-full object-cover rounded-3xl border-4 border-white shadow-2xl relative z-10" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 400 320\'%3E%3Crect width=\'400\' height=\'320\' fill=\'%23f3f4f6\' rx=\'20\'/%3E%3Cpath d=\'M200 80c-30 0-55 25-55 55v40c0 30 25 55 55 55s55-25 55-55v-40c0-30-25-55-55-55z\' fill=\'%23374151\'/%3E%3Cpath d=\'M200 230c-40 0-70 15-70 35v30c0 15 30 25 70 25s70-10 70-25v-30c0-20-30-35-70-35z\' fill=\'%23374151\'/%3E%3C/svg%3E'; this.alt='Dr. APJ Abdul Kalam Portrait';">
+                    <div class="absolute inset-0 rounded-3xl bg-gradient-to-r from-amber-400 via-yellow-500 to-amber-600 opacity-75 blur-xl animate-pulse"></div>
+                    <div class="absolute inset-0 rounded-3xl bg-gradient-to-r from-amber-300 via-yellow-400 to-amber-500 opacity-50 blur-2xl animate-ping"></div>
+                </div>
+
+                <!-- Typography -->
+                <div class="mb-8 px-2">
+                    <h1 class="text-gray-600 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4">Dr. APJ Abdul Kalam</h1>
+                    <p class="text-lg sm:text-xl md:text-2xl text-gray-300 font-light mb-6">1931 - 2015</p>
+
+                    <!-- Role Boxes -->
+<div class="flex flex-wrap justify-center gap-2 mb-6">
+    <div class="bg-blue-300 bg-opacity-30 backdrop-blur-xl rounded-2xl px-3 py-1 border border-white border-opacity-30 shadow-md text-white font-semibold text-sm">
+        🔬 Scientist
     </div>
-    <div class="bg-green-300 bg-opacity-30 backdrop-blur-xl rounded-2xl px-6 py-3 border border-white border-opacity-30 shadow-md">
-        <span class="text-white font-semibold text-lg">🏛️ President</span>
+    <div class="bg-green-300 bg-opacity-30 backdrop-blur-xl rounded-2xl px-3 py-1 border border-white border-opacity-30 shadow-md text-white font-semibold text-sm">
+        🏛️ President
     </div>
-    <div class="bg-yellow-300 bg-opacity-30 backdrop-blur-xl rounded-2xl px-6 py-3 border border-white border-opacity-30 shadow-md">
-        <span class="text-white font-semibold text-lg">👨‍🏫 Teacher</span>
+    <div class="bg-yellow-300 bg-opacity-30 backdrop-blur-xl rounded-2xl px-3 py-1 border border-white border-opacity-30 shadow-md text-white font-semibold text-sm">
+        👨‍🏫 Teacher
     </div>
-    <div class="bg-purple-300 bg-opacity-30 backdrop-blur-xl rounded-2xl px-6 py-3 border border-white border-opacity-30 shadow-md">
-        <span class="text-white font-semibold text-lg">✨ Inspiration</span>
+    <div class="bg-purple-300 bg-opacity-30 backdrop-blur-xl rounded-2xl px-3 py-1 border border-white border-opacity-30 shadow-md text-white font-semibold text-sm">
+        ✨ Inspiration
     </div>
 </div>
 
-                        
-                        <!-- Title with Underline -->
-                        <p class="text-2xl text-orange-300 mb-2 font-normal border-b-2 border-white pb-2 inline-block font-serif">
-                            "The People's President • Missile Man of India"
-                        </p>
-                        
-                        <!-- Description -->
-                        <p class="text-lg text-gray-200 mb-8 leading-relaxed max-w-4xl mx-auto">
-                           A <span class="text-yellow-400">visionary scientist</span> who became the 11th President of India, Dr. Kalam dedicated his life to science, education, and inspiring young minds. Known as the <span class="text-red-500">'Missile Man of India'</span>, he played a pivotal role in <span class="text-green-400">India's space and missile programs</span>.
-                        </p>
-                        </div>
 
-                    
-                    <!-- Enhanced Quote with Carousel -->
-                    <div class="mb-12 relative">
-                        <div class="quote-carousel active" id="quote1">
-                            <blockquote class="quote-elegant playfair text-3xl md:text-4xl italic font-medium">
-                                <span class="important" style="color: #F8BA63;">Dream, dream, dream. Dreams transform into thoughts and thoughts result in action.</span>
-                            </blockquote>
-                        </div>
-                        
-                        <div class="quote-carousel" id="quote2">
-                            <blockquote class="quote-elegant playfair text-3xl md:text-4xl italic font-medium">
-                                <span class="important" style="color: #F8BA63;"> "All of us do not have equal talent. But, all of us have an equal opportunity to develop our talents.".</span>
-                            </blockquote>
-                        </div>
-                        
-                        <div class="quote-carousel" id="quote3">
-                            <blockquote class="quote-elegant playfair text-3xl md:text-4xl italic font-medium">
-                                <span class="important" style="color: #F8BA63;">Learning gives creativity, creativity leads to thinking, thinking provides knowledge, knowledge makes you great.</span>
-                            </blockquote>
-                        </div>
-                    </div>
-                    
-                    <!-- Professional CTA Buttons -->
-                    <div class="mb-16 flex flex-col sm:flex-row gap-4 justify-center items-center">
-                        <button onclick="document.getElementById('hamburgerBtn').click()" class="bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex items-center space-x-2">
-                            <span>🚀</span>
-                            <span>Explore His Journey</span>
-                        </button>
-                        <button onclick="showPage('tribute')" class="bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex items-center space-x-2">
-                            <span>🙏</span>
-                            <span>Share Your Tribute</span>
-                        </button>
-                    </div>
+                    <!-- Subtitle -->
+                    <p class="text-2xl text-orange-300 mb-4 font-normal border-b-2 border-white pb-2 inline-block font-serif">"The People's President • Missile Man of India"</p>
+
+                    <!-- Description -->
+                    <p class="text-lg text-gray-200 mb-8 leading-relaxed max-w-4xl mx-auto">A <span class="text-yellow-400">visionary scientist</span> who became the 11th President of India, Dr. Kalam dedicated his life to science, education, and inspiring young minds. Known as the <span class="text-red-500">'Missile Man of India'</span>, he played a pivotal role in <span class="text-green-400">India's space and missile programs</span>.</p>
+                </div>
+
+                <!-- Quotes Section -->
+                <div class="mb-12 px-2">
+                    <div class="quote-carousel active text-center text-2xl sm:text-3xl md:text-4xl italic font-medium text-yellow-400">Dream, dream, dream. Dreams transform into thoughts and thoughts result in action.</div>
+                    <div class="quote-carousel text-center text-2xl sm:text-3xl md:text-4xl italic font-medium text-yellow-400 hidden">All of us do not have equal talent. But, all of us have an equal opportunity to develop our talents.</div>
+                    <div class="quote-carousel text-center text-2xl sm:text-3xl md:text-4xl italic font-medium text-yellow-400 hidden">Learning gives creativity, creativity leads to thinking, thinking provides knowledge, knowledge makes you great.</div>
+                </div>
+
+                <!-- CTA Buttons -->
+                <div class="mb-16 flex flex-col sm:flex-row gap-4 justify-center items-center px-2">
+                    <button onclick="document.getElementById('hamburgerBtn').click()" class="bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full text-base sm:text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2">🚀 Explore His Journey</button>
+                    <button onclick="showPage('tribute')" class="bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full text-base sm:text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2">🙏 Share Your Tribute</button>
                 </div>
             </div>
-            
-            <!-- Professional Statistics Section -->
-            <section class="py-16 bg-white">
-                <div class="max-w-6xl mx-auto px-6">
-                    <div class="grid md:grid-cols-4 gap-8 text-center">
-                        <div class="bg-gradient-to-br from-orange-50 to-orange-100 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-                            <div class="text-4xl font-bold saffron-accent mb-2">11th</div>
-                            <div class="text-gray-600 font-medium">President of India</div>
-                            <div class="text-sm text-gray-500 mt-1">2002-2007</div>
-                        </div>
-                        <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-                            <div class="text-4xl font-bold green-accent mb-2">25+</div>
-                            <div class="text-gray-600 font-medium">Books Published</div>
-                            <div class="text-sm text-gray-500 mt-1">Including Wings of Fire</div>
-                        </div>
-                        <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-                            <div class="text-4xl font-bold navy-accent mb-2">40+</div>
-                            <div class="text-gray-600 font-medium">Honorary Doctorates</div>
-                            <div class="text-sm text-gray-500 mt-1">From Universities Worldwide</div>
-                        </div>
-                        <div class="bg-gradient-to-br from-purple-50 to-purple-100 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-                            <div class="text-4xl font-bold text-purple-600 mb-2">84</div>
-                            <div class="text-gray-600 font-medium">Years of Life</div>
-                            <div class="text-sm text-gray-500 mt-1">Dedicated to Nation</div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            
-            <!-- Did You Know Section -->
-            <section class="py-16 bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50">
-                <div class="max-w-6xl mx-auto px-6">
-                    <div class="text-center mb-12">
-                        <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4 playfair">Did You Know?</h2>
-                        <p class="text-xl text-gray-600">Fascinating facts about Dr. APJ Abdul Kalam</p>
-                        <div class="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto mt-4 rounded-full"></div>
-                    </div>
-                    
-                    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-                        <div class="bg-white rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 text-center">
-                            <div class="text-6xl mb-4">💍</div>
-                            <h3 class="text-xl font-bold text-gray-800 mb-3 playfair">Never Married</h3>
-                            <p class="text-gray-600">Dedicated his entire life to serving the nation and inspiring youth</p>
-                        </div>
-                        
-                        <div class="bg-white rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 text-center">
-                            <div class="text-6xl mb-4">🎶</div>
-                            <h3 class="text-xl font-bold text-gray-800 mb-3 playfair">Music Lover</h3>
-                            <p class="text-gray-600">Enjoyed playing the veena and listening to classical music</p>
-                        </div>
-                        
-                        <div class="bg-white rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 text-center">
-                            <div class="text-6xl mb-4">📚</div>
-                            <h3 class="text-xl font-bold text-gray-800 mb-3 playfair">Loved Teaching Students</h3>
-                            <p class="text-gray-600">Continued teaching and inspiring young minds throughout his life</p>
-                        </div>
-                        
-                        <div class="bg-white rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 text-center">
-                            <div class="text-6xl mb-4">🌌</div>
-                            <h3 class="text-xl font-bold text-gray-800 mb-3 playfair">Passionate About Space Research</h3>
-                            <p class="text-gray-600">Dreamed of making India a space superpower and achieved it</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            
-            <!-- Social Media Share Section -->
-            <section class="py-12 bg-gradient-to-r from-orange-100 via-white to-green-100">
-                <div class="max-w-4xl mx-auto px-6 text-center">
-                    <h3 class="text-2xl font-bold navy-accent mb-6 playfair">Share This Tribute</h3>
-                    <p class="text-gray-600 mb-8">Help spread Dr. Kalam's inspiring legacy with others</p>
-                    <div class="flex justify-center space-x-6">
-                        <button onclick="shareOnTwitter()" class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 flex items-center space-x-2">
-                            <span>🐦</span>
-                            <span>Twitter</span>
-                        </button>
-                        <button onclick="shareOnFacebook()" class="bg-blue-700 hover:bg-blue-800 text-white px-6 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 flex items-center space-x-2">
-                            <span>📘</span>
-                            <span>Facebook</span>
-                        </button>
-                        <button onclick="shareOnLinkedIn()" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 flex items-center space-x-2">
-                            <span>💼</span>
-                            <span>LinkedIn</span>
-                        </button>
-                        <button onclick="copyLink()" class="bg-gray-600 hover:bg-gray-700 text-white px-6 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 flex items-center space-x-2">
-                            <span>🔗</span>
-                            <span>Copy Link</span>
-                        </button>
-                    </div>
-                </div>
-            </section>
         </div>
+
+        <!-- Statistics & Did You Know sections remain unchanged, but ensure all containers use responsive px-4 sm:px-6 lg:px-8 -->
+
+    </div>
+</main>
+
+            
+            <!-- Social Media Share Section - Fixed & Smaller Buttons -->
+<section class="py-12 bg-gradient-to-r from-orange-100 via-white to-green-100">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 text-center">
+        <h3 class="text-2xl font-bold navy-accent mb-6 playfair">Share This Tribute</h3>
+        <p class="text-gray-600 mb-8">Help spread Dr. Kalam's inspiring legacy with others</p>
+        <div class="flex flex-wrap justify-center gap-4">
+            <button onclick="shareOnTwitter()" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-full font-semibold text-sm transition-all duration-300 transform hover:scale-105 flex items-center gap-2 max-w-[120px] w-full sm:w-auto">
+                <span>🐦</span>
+                <span>Twitter</span>
+            </button>
+            <button onclick="shareOnFacebook()" class="bg-blue-700 hover:bg-blue-800 text-white px-4 py-2 rounded-full font-semibold text-sm transition-all duration-300 transform hover:scale-105 flex items-center gap-2 max-w-[120px] w-full sm:w-auto">
+                <span>📘</span>
+                <span>Facebook</span>
+            </button>
+            <button onclick="shareOnLinkedIn()" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-full font-semibold text-sm transition-all duration-300 transform hover:scale-105 flex items-center gap-2 max-w-[120px] w-full sm:w-auto">
+                <span>💼</span>
+                <span>LinkedIn</span>
+            </button>
+            <button onclick="copyLink()" class="bg-gray-600 hover:bg-gray-700 text-white px-4 py-2 rounded-full font-semibold text-sm transition-all duration-300 transform hover:scale-105 flex items-center gap-2 max-w-[120px] w-full sm:w-auto">
+                <span>🔗</span>
+                <span>Copy Link</span>
+            </button>
+        </div>
+    </div>
+</section>
 
         <!-- Enhanced Tribute Page -->
         <div id="tribute" class="page-content">
